@@ -20,7 +20,7 @@ public class CalculatorModelTest {
 	} 
 
 	@Test
-	public void shouldSubstTwoAndTwo(){
+	public void shouldSubst(){
 		// Assert 3.0 minus 2.0 equals 0.0 plus or minus 0.1 epsilon
 		// Assert -1.0 minus -3.0 equals 2.0 plus or minus 0.1 epsilon
 		// Using Doubles requires the use of epsilon for roundoff errors
@@ -29,12 +29,12 @@ public class CalculatorModelTest {
 	} 
 
 	@Test
-	public void shouldMultTwoByOne(){
+	public void shouldMultFourByTwo(){
 		assertEquals(8.0, calc.operationMult(4.0, 2.0), 0.1);
 	} 
 
 	@Test
-	public void shouldDivTwoByOne(){
+	public void shouldDivOneByTwo(){
 		assertEquals(0.5, calc.operationDiv(2.0, 1.0), 0.1);
 	} 
 
