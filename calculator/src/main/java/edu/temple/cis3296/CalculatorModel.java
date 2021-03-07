@@ -102,20 +102,20 @@ public class CalculatorModel {
         }
     }
 
-    public double operationAdd(double rhs, double lhs) {
-        return rhs + lhs;
+    public double operationAdd(double lhs, double rhs) {
+        return lhs + rhs;
     }
 
-    public double operationSubst(double rhs, double lhs) {
-        return (rhs - lhs);
+    public double operationSubst(double lhs, double rhs) {
+        return (lhs - rhs);
     }
 
-    public double operationMult(double rhs, double lhs) {
-        return rhs * lhs;
+    public double operationMult(double lhs, double rhs) {
+        return lhs * rhs;
     }
 
-    public double operationDiv(double rhs, double lhs) {
-        return lhs/rhs;
+    public double operationDiv(double lhs, double rhs) {
+        return rhs/lhs;
     }
 
 
